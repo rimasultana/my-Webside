@@ -1,85 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.body{
-    font-family: 'Open Sans', sans-serif;
+.body {
+  font-family: "Open Sans", sans-serif;
 }
 
- header{
-background-color:azure;
+header {
+  background-color: azure;
 }
-.container{
-    padding: 60px 160px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.container {
+  padding: 60px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo h1{
-    font-size: 85px;
-    font-weight: bold;
+.logo h1 {
+  font-size: 85px;
+  font-weight: bold;
 }
-.btn-primary{
-    color: red;
+.btn-primary {
+  color: red;
 }
-.manu ul{
-    display: flex;
-    justify-content: center;
-    margin-left: 10px;
-    list-style: none;
+.manu ul {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  list-style: none;
 }
-.manu ul li{
-    margin-right: 25px;
-    font-size: 35px;
-    font-weight: bold;
-    
+.manu ul li {
+  margin-right: 25px;
+  font-size: 35px;
+  font-weight: bold;
 }
-.banner-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 130px 60px;
-    
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 60px;
 }
-.banner-details{
-text-align: center;
+.banner-details {
+  text-align: center;
 }
-.title{
-    font-size:60px;
-  
+.title {
+  font-size: 60px;
 }
-.description{
-    font-size: 18px;
-    padding: 20px 50px;
+.description {
+  font-size: 18px;
+  padding: 20px 50px;
 }
-.primary{
-    font-size: 20px;
-    color: aliceblue;
-    background-color: red;
-    padding: 15px 30px;
-    border-radius: 5px;
-    border: 0;
-   
+.primary {
+  font-size: 20px;
+  color: aliceblue;
+  background-color: red;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0;
 }
-.banner-image{
+.banner-image {
 }
-.image{
-    width: 70%;
-    border-radius: 15%;
+.image {
+  width: 70%;
+  border-radius: 15%;
 }
 /* About me */
 
-.main-container{
-    width: 70%;
-    height: 60vh;
-    background-color:peachpuff;
-    margin:auto;
-    text-align: center;
+.main-container {
+  width: 70%;
+  height: 50vh;
+  background-color: peachpuff;
+  margin: auto;
+  text-align: center;
 }
-.about{
-    font-size: 70px;
-padding: 25px;
+.about {
+  font-size: 70px;
+  padding: 25px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-title{
+    margin: 15px;
+}
+.color{
+    color:gray;
+    font-size: 16px;
+}
+.text{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
 }
