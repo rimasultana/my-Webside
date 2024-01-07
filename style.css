@@ -95,3 +95,8 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
+.footer{
+    color: #fff;
+    background-color: black;
+    padding: 15px ;
+}
