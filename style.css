@@ -70,3 +70,16 @@ text-align: center;
     width: 70%;
     border-radius: 15%;
 }
+/* About me */
+
+.main-container{
+    width: 70%;
+    height: 60vh;
+    background-color:peachpuff;
+    margin:auto;
+    text-align: center;
+}
+.about{
+    font-size: 70px;
+padding: 25px;
+}
