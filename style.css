@@ -9,7 +9,7 @@
 }
 
  header{
-background-color: #bdc3c7;
+background-color:azure;
 }
 .container{
     padding: 60px 160px;
@@ -41,7 +41,7 @@ background-color: #bdc3c7;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 60px;
+    margin: 130px 60px;
     
 }
 .banner-details{
@@ -67,6 +67,6 @@ text-align: center;
 .banner-image{
 }
 .image{
-    width: 90%;
+    width: 70%;
     border-radius: 15%;
 }
